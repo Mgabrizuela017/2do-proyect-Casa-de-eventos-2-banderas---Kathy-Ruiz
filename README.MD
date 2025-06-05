@@ -12,3 +12,7 @@ Proyecto web para una casa de eventos sociales y culturales privados llamada **2
 ## 📁 Estructura del proyecto
 
 /2banderas index.html   assets/ css/styles.css js/main.js img/ icons/ README.md
+
+Para visualizacion del proyecto brindo los siguientes enlaces del dominio. Por el momento se encuentra alojada en: "https://darkslategrey-hyena-527858.hostingersite.com/" y en Netlify: https://salon2banderaseventos-8c9d1b.netlify.app/
+
+En el mismo repositorio de git-hub ir a la seccion de "code" y descargarlo en formato zip o con el codigo de clonacion en la terminal del dektop local o de su editor de texto o Forkear el proyecto desde su cuenta github.
