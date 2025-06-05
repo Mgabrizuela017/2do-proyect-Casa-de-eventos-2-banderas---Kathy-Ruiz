@@ -11,7 +11,7 @@ Proyecto web para una casa de eventos sociales y culturales privados llamada **2
 
 ## 📁 Estructura del proyecto
 
-/2banderas index.html   assets/ css/styles.css js/main.js img/ icons/ README.md
+/2banderas index.html   assets/ img/ icons/ css/Css.css js/Home.js  README.md
 
 Para visualizacion del proyecto brindo los siguientes enlaces del dominio. Por el momento se encuentra alojada en: "https://darkslategrey-hyena-527858.hostingersite.com/" y en Netlify: https://salon2banderaseventos-8c9d1b.netlify.app/
 
