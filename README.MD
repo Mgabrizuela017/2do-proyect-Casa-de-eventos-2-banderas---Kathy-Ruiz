@@ -11,4 +11,4 @@ Proyecto web para una casa de eventos sociales y culturales privados llamada **2
 
 ## 📁 Estructura del proyecto
 
-/2banderas index.html   assets/ css/styles.css js/main.js img/ icons/ README.md
+/2banderas index.html   assets/ css/Css.css Css2_parte_estilo Css_Otras_secciones js/Home.js Contacto-Form.js Servicios.js Salon.js img/ icons/ README.md
