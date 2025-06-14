@@ -6,9 +6,13 @@ Proyecto web para una casa de eventos sociales y culturales privados llamada **2
 
 - HTML5
 - CSS3
-- JavaScript 
+- JavaScript / Jquery 
 - Git & GitHub
 
 ## 📁 Estructura del proyecto
 
 /2banderas index.html   assets/ css/Css.css Css2_parte_estilo Css_Otras_secciones js/Home.js Contacto-Form.js Servicios.js Salon.js img/ icons/ README.md
+
+Para visualizacion del proyecto brindo los siguientes enlaces del dominio. Por el momento se encuentra alojada en Vercel y Netlify: [https://2do-proyect-casa-de-eventos-2-bande.vercel.app/] https://salon2banderaseventos.netlify.app/
+
+En el mismo repositorio de git-hub ir a la seccion de "code" y descargarlo en formato "zip" o con el codigo de clonacion en la terminal del dektop local - editor de texto y la opcion de Forkear el proyecto desde su cuenta 
