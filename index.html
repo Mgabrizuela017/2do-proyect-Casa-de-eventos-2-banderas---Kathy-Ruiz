@@ -17,6 +17,36 @@
   border-top: 1px solid #333;
   padding-top: 15px;
 }
+
+.Menu li a {
+  position: relative;
+  padding-right: 45px; /* espacio para la flecha */
+  text-decoration: none;
+  color: rgb(255, 255, 255); /* o el color que prefieras */
+  transition: all 0.3s ease;
+}
+
+.Menu li a::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 26px; /* ajustá según el tamaño de tu imagen */
+  height: 26px;
+  background-image: url(Assets/Icons/Flecha_roja3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.Menu li a:hover::after {
+  opacity: 1;
+}
+.footer-section links{
+
+}
 </style>
 
 </head>
