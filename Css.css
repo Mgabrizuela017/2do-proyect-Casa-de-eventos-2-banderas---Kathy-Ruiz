@@ -331,7 +331,7 @@ button img {
 
   @media (max-width: 768px) {
   .Menu {
-    flex-direction: column;      /* 🔁 ahora se apilan verticalmente */
+    flex-direction:row;      /* 🔁 ahora se apilan verticalmente */
     align-items: center;         /* centrado horizontal */
     gap: 0.8rem;                 /* espacio entre enlaces */
     padding: 0;
