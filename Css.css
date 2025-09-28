@@ -329,19 +329,31 @@ button img {
     width: 90%;
   }
 
-  nav a {
-    font-size: 1.2rem;
+  @media (max-width: 768px) {
+  .Menu {
+    flex-direction: column;      /* 🔁 ahora se apilan verticalmente */
+    align-items: center;         /* centrado horizontal */
+    gap: 0.8rem;                 /* espacio entre enlaces */
+    padding: 0;
+    margin: 0;
   }
+
+  nav a {
+    font-size: 1.2rem;           /* tamaño más chico en móvil */
+    display: block;              /* ocupa toda la fila */
+    width: 100%;                 /* cada enlace ocupa el ancho completo */
+    text-align: center;          /* texto centrado */
+    padding: 0.5rem 0;
+  }
+}
+
 
   .video {
     flex-direction: column;
     width: 95%;
   }
 
-  .Menu {
-    flex-direction: column;
-    align-items: center;
-  }
+  
 
   #book {
   animation: none;
