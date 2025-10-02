@@ -133,11 +133,7 @@ img {
 }
 
 /*------------------ Carrusel ------------------*/
-#galeria {
-  height: auto;
-  padding: 10px;
-}
-
+/*------------------ Carrusel ------------------*/
 #galeria {
   overflow: hidden;
   position: relative;
@@ -152,9 +148,8 @@ img {
   gap: 20px;
   width: max-content;
   height: auto;
-  animation: carrusel 20s ease-in-out infinite;
+  animation: carrusel 20s linear infinite; /* Automático en escritorio */
 }
-
 
 #book img {
   width: 300px;
@@ -163,12 +158,31 @@ img {
   margin-right: 20px;
 }
 
+/* Animación automática (solo escritorio) */
 @keyframes carrusel {
-  0% { transform: translateX(0%); }
-  25% { transform: translateX(-20%); }
-  50% { transform: translateX(0%); }
-  75% { transform: translateX(1%); }
-  100% { transform: translateX(0%); }
+  0%   { transform: translateX(0); }
+  20%  { transform: translateX(-300px); }   /* 1 imagen */
+  40%  { transform: translateX(-600px); }   /* 2 imágenes */
+  60%  { transform: translateX(-900px); }   /* 3 imágenes */
+  80%  { transform: translateX(-1200px);}   /* 4 imágenes */
+  100% { transform: translateX(0); }
+}
+
+/*------------------ Mobile ------------------*/
+@media (max-width: 768px) {
+  #book {
+    animation: none;                /* Se desactiva el auto carrusel */
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #book img {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    width: 80vw;     /* más grande en móviles */
+    height: auto;
+  }
 }
 
 /*------------------ Mapa ------------------*/
@@ -373,23 +387,6 @@ button img {
     width: 95%;
   }
 
-  
-
-  #book {
-  animation: none;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-}
-
-#book img {
-  flex: 0 0 auto;
-  scroll-snap-align: start;
-  width: 80vw;
-  height: auto;
-  object-fit: cover;
-}
-
 
   .whatsapp {
     width: 60px;
@@ -405,7 +402,7 @@ button img {
     width: 20px;
     height: 20px;
   }
-}
+
 
 @media (max-width: 480px) {
   .Titulo {
